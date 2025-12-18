@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* border: solid red;  */
+}
+
+
+.index-page h1 {
+    color: rgb(37, 72, 197);
+    font-size: 9em;  
+    font-family: 'Arial', sans-serif;
+}
+
+.left {
+    text-align: left; 
+    margin-left: 3em; 
+}
+.right {
+    text-align: right; 
+    margin-right: 4em; 
+
+}
+ 
+.index-page h2 {
+    color: rgb(100, 100, 100);
+    font-size: 2.5em;  
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    margin: 0 5em; 
+}
