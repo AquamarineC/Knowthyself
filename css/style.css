@@ -29,3 +29,15 @@
     text-align: center; 
     margin: 0 5em; 
 }
+
+
+
+
+
+
+
+
+.about-page button {
+    font-size: 1.5em; 
+    cursor: pointer; 
+}
