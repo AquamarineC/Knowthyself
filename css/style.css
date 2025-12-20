@@ -5,15 +5,44 @@
     /* border: solid red;  */
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+li {
+    border-style: outset;
+    margin: 0.6em;
+    list-style: none;
+
+}
+
+h1{
+    text-align: center;
+}
+
+/* index-page */
+
+
+
+index-page {     
+    background-image: url('img/matrix-background.jpg'); 
+    
+
+}
 
 .index-page h1 {
     color: rgb(37, 72, 197);
-    font-size: 9em;  
-    font-family: 'Arial', sans-serif;
+    font-size: 9em;     
+            
+    
 }
 
 .left {
-    text-align: left; 
+    text-align:left; 
     margin-left: 3em; 
 }
 .right {
@@ -35,9 +64,54 @@
 
 
 
+/* about-page */
+
 
 
 .about-page button {
     font-size: 1.5em; 
     cursor: pointer; 
 }
+
+
+
+
+
+
+/* BOOKS PAGE */
+
+.books-page main ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding-inline-start: 0px;
+}
+
+.books-page main ul div{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    flex: 1, 1, auto;
+}
+
+.books-page ul div li{
+    align-self:center;
+    border: none;
+}
+
+/* FOOD PAGE */
+
+
+
+
+
+
+
+/* MOVIES PAGE */
+
+
+
+
+/*PEOPLE PAGE */
