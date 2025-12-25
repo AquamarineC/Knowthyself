@@ -24,13 +24,16 @@ h1{
     text-align: center;
 }
 
+
+
+
 /* index-page */
 
 
 
-index-page {     
-    background-image: url('img/matrix-background.jpg'); 
-    
+.index-page {     
+    background-image: image(sc);
+    /* background-color: aquamarine; */
 
 }
 
@@ -72,6 +75,7 @@ index-page {
     font-size: 1.5em; 
     cursor: pointer; 
 }
+ 
 
 
 
@@ -101,6 +105,19 @@ index-page {
     border: none;
 }
 
+
+/* 
+.books-page ul div:nth-child(odd){
+    border: black thick
+     
+} */
+
+
+
+
+
+
+
 /* FOOD PAGE */
 
 
@@ -109,7 +126,19 @@ index-page {
 
 
 
+
+
+
+
 /* MOVIES PAGE */
+
+
+
+
+
+
+
+
 
 
 
