@@ -33,12 +33,15 @@ h1{
     text-align: center;
 }
 
-/* .offpage { 
-    position: fixed;
+.offpage { 
+    position: absolute;
     left: -1000px;
 
-} */
+}
 
+.offpage:focus{
+    position: static
+}
 
 /* index-page */
 
@@ -50,6 +53,7 @@ h1{
 
 }
 
+ 
 .index-page h1 {
     color: rgb(37, 72, 197);
     font-size: 9em;     
@@ -120,6 +124,9 @@ h1{
     padding-inline-start: 0px;
 }
 
+
+
+
 .books-page main ul div{ 
     display: flex;
     flex-direction: column;
@@ -143,6 +150,7 @@ h1{
     transition-delay: 0.5s;
     border-radius: 20px;
 }
+
 
 
 /* 
@@ -170,8 +178,17 @@ h1{
 
 .food-page main ul li {
     list-style: none; 
+    border: 6px;
+}
+
+.food-page main ul li img:nth-child(odd) {
+    border-radius: 50%;
 
 }
+
+
+
+
 
 .food-page img{ 
     width: 85%; 
