@@ -20,6 +20,15 @@ nav li {
 
 }
 
+nav li :hover {
+    border: solid rgb(133, 124, 216); 
+    border-style:none;
+    background-color: rgb(104, 190, 227);
+    font-style: italic;
+    font-size: 1.5em;
+    transition-duration: 3s;
+}
+
 h1{
     text-align: center;
 }
@@ -67,6 +76,12 @@ h1{
 }
 
 
+.index-page h2 a:hover {
+    font-size: 1.2em;
+    font-style: italic;
+    /* border: 2px solid rgb(47, 89, 194); */
+    transition-duration: 1s;
+}
 
 
 
@@ -80,6 +95,10 @@ h1{
     cursor: pointer; 
 }
  
+.about-page nav {
+    font-size: 1.5em; 
+
+}
 
 
 
@@ -101,12 +120,24 @@ h1{
     display: flex;
     flex-direction: column;
     text-align: center; 
-    flex: 1, 1, auto;
+    flex: 1, 1, auto; 
+    opacity: 50%;
+ 
 }
 
 .books-page ul div li{
     align-self:center;
     border: none;
+    
+}
+
+.books-page main ul div:hover{
+    border: 6px solid rgb(133, 124, 216); 
+    opacity: 100%; 
+    /* padding: 1px; */
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    border-radius: 20px;
 }
 
 
@@ -138,13 +169,14 @@ h1{
 
 }
 
-.food-page img{
-    border: 20px solid black;
+.food-page img{ 
     width: 85%; 
 
 }
 
-
+/* .food-page main ul li:nth-child(even){
+    border: solid rgb(154, 147, 212); 
+} */
 
 
 
