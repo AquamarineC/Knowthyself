@@ -48,7 +48,7 @@ h1{
 
 
 .index-page {     
-    background-image: image(sc);
+    background-image: url("../img/matrix-background.jpeg");
     background-color: rgb(183, 238, 239);
 
 }
@@ -115,7 +115,7 @@ h1{
 
 /* BOOKS PAGE */
 
-.books-page main ul{
+.books-page main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -127,8 +127,7 @@ h1{
 
 
 
-.books-page main ul div{ 
-    display: flex;
+.books-page main div{ 
     flex-direction: column;
     text-align: center; 
     flex: 1, 1, auto; 
@@ -136,13 +135,14 @@ h1{
  
 }
 
-.books-page ul div li{
+
+.books-page ul div p{
     align-self:center;
     border: none;
     
 }
 
-.books-page main ul div:hover{
+.books-page main div:hover{
     border: 6px solid rgb(133, 124, 216); 
     opacity: 100%; 
     /* padding: 1px; */
@@ -159,8 +159,7 @@ h1{
      
 } */
 
-
-
+ 
 
 
 
